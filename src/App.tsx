@@ -1,5 +1,7 @@
+import { ThemeProvider } from "@providers/ThemeProvider";
+
 function App() {
-  return <div className="App">Hello World!</div>;
+  return <ThemeProvider>Hello World!</ThemeProvider>;
 }
 
 export default App;
